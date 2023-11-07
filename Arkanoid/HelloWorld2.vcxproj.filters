@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{b4b49348-e9f2-4b8e-a89d-b258de776288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Engine">
+      <UniqueIdentifier>{c3ff0d3e-5cde-4fd2-aa71-78ad7f830fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Exceptions">
+      <UniqueIdentifier>{352b872e-e905-4930-96f8-204db95b0844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Engine\Graphics">
+      <UniqueIdentifier>{31062513-f1fa-4934-a93e-55fae97c7a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Engine\Input">
+      <UniqueIdentifier>{c046a303-95c0-45cf-a99c-9055e1be72c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scenes">
+      <UniqueIdentifier>{38d55101-7233-4a66-a175-56f14ffaac61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Singletons">
+      <UniqueIdentifier>{a6d4432f-7fbb-49d6-8e5b-5809379e016a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Powerups">
+      <UniqueIdentifier>{6540d65a-5461-4667-8e98-6a1ef7b5b267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Ranking">
+      <UniqueIdentifier>{e584cf6d-65c9-417b-b99e-5ddd0b32b812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Entities">
+      <UniqueIdentifier>{9ee4b6e0-f41a-4c47-998b-f4dcffa95274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Extra">
+      <UniqueIdentifier>{f0f5873c-8142-4c39-8896-f60480e64672}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Engine\Input\Controller.h">
+      <Filter>source\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Engine\Input\InputHandler.h">
+      <Filter>source\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Engine\Input\Keyboard.h">
+      <Filter>source\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Engine\Graphics\Animation.h">
+      <Filter>source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Engine\Graphics\Texture.h">
+      <Filter>source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Exceptions\SDL_Exception.h">
+      <Filter>source\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Audio.h">
+      <Filter>source\Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Ball.h">
+      <Filter>source\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Brick.h">
+      <Filter>source\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CollisionsHelper.h">
+      <Filter>source\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FileAction.h">
+      <Filter>source\Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameState.h">
+      <Filter>source\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game.h">
+      <Filter>source\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameManager.h">
+      <Filter>source\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameOver.h">
+      <Filter>source\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GiantPowerUp.h">
+      <Filter>source\Powerups</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Hero.h">
+      <Filter>source\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\InputOperation.h">
+      <Filter>source\Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MainMenu.h">
+      <Filter>source\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Map.h">
+      <Filter>source\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MiniPowerUp.h">
+      <Filter>source\Powerups</Filter>
+    </ClInclude>
+    <ClInclude Include="source\OutputOperation.h">
+      <Filter>source\Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pause.h">
+      <Filter>source\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PowerUp.h">
+      <Filter>source\Powerups</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PowerUpFactory.h">
+      <Filter>source\Powerups</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Ranking.h">
+      <Filter>source\Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SpeedPowerUp.h">
+      <Filter>source\Powerups</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SplashScreen.h">
+      <Filter>source\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameInfo.h">
+      <Filter>source\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Engine\Input\InputHandler.cpp">
+      <Filter>source\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Engine\Input\Keyboard.cpp">
+      <Filter>source\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Engine\Graphics\Animation.cpp">
+      <Filter>source\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Engine\Graphics\Texture.cpp">
+      <Filter>source\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Audio.cpp">
+      <Filter>source\Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ball.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Brick.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileAction.cpp">
+      <Filter>source\Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameState.cpp">
+      <Filter>source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game.cpp">
+      <Filter>source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameManager.cpp">
+      <Filter>source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameOver.cpp">
+      <Filter>source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GiantPowerUp.cpp">
+      <Filter>source\Powerups</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Hero.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputOperation.cpp">
+      <Filter>source\Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MainMenu.cpp">
+      <Filter>source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Map.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MiniPowerUp.cpp">
+      <Filter>source\Powerups</Filter>
+    </ClCompile>
+    <ClCompile Include="source\OutputOperation.cpp">
+      <Filter>source\Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pause.cpp">
+      <Filter>source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PowerUp.cpp">
+      <Filter>source\Powerups</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PowerUpFactory.cpp">
+      <Filter>source\Powerups</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ranking.cpp">
+      <Filter>source\Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SpeedPowerUp.cpp">
+      <Filter>source\Powerups</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SplashScreen.cpp">
+      <Filter>source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameInfo.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Source.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
